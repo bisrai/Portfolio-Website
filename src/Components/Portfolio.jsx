@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/design-desk.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Weather-App",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "I made this weather project using HTML, CSS, and React. It's basically an application that tells you the weather for any location you want. You just type in the place, and it shows you the current temperature, weather condition, and other details.",
+    url: "https://github.com/bisrai/weather-project",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Tattoo Website",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "In this project, I have skillfully used HTML, CSS and JavaScript to create an attractive tattoo website. It includes essential elements such as a contact form, a user-friendly navbar, an elegant header, and a clean footer. This website is also designed to be responsive, which means it looks great on any device you're using.",
+    url: "https://github.com/bisrai/TW-Internship/tree/main/Task%202",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://github.com/bisrai/Resume",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Phone Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "I made phone website using HTML, CSS, and Bootstrap. You can explore the latest phone models and their awesome features in a super easy and user-friendly way!",
+    url: "https://github.com/bisrai/Mobile-Phone-website",
   },
 ];
 
@@ -64,7 +64,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover",  }}
             alt={imageAltText}
           />
         </div>
